@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+nav{
+  background-color: blueviolet;
+  text-align: center;
+  display: block;
+  color: blue;
+  padding: 20px, 20px;
+}
+.todo{
+margin: 10px;
+width: 300px;
+height: 100px;
+padding: 20px 20px;
+background-color: deeppink;
+}
+.todo:hover{
+  border: 2px solid yellow;
+  height: 120px;
+  width: 310px;
+  background-color: brown;
+  color: blue;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+  
+
+
+
